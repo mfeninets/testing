@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 import { useDispatch } from "react-redux";
 
 import { useRate } from "./useRate";
-import { List } from "./List/List";
+import { List } from "./components/List/List";
 import { getMessagesList } from "./fakeApi";
 
 export const App = () => {

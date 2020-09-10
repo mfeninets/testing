@@ -1,12 +1,10 @@
-import { UPDATE_MESSAGES, UPDATE_RATE } from "../constants";
-
 export type ContentItem = {
     source: string;
     amount: number;
 };
 
 export type Message = {
-    id?: number;
+    id: number;
     text: string;
     canDelete: boolean;
     btcAmount?: number;
@@ -21,12 +19,12 @@ export type State = {
 };
 
 export type UpdateRateAction = {
-    type: typeof UPDATE_RATE;
+    type: string;
     payload: string;
 };
 
 export type GetMessagesAction = {
-    type: typeof UPDATE_MESSAGES;
+    type: string;
     payload: Message[] | number;
 };
 

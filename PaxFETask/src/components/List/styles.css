@@ -23,12 +23,12 @@
     overflow: scroll;
     border-radius: 16px;
     border: 2px solid #4A76A2;
-    box-shadow: 0 0 20px #00000026;
+    box-shadow: 0 0 20px #d2ced7;
 }
 
 .message_container {
     position: relative;
-    box-shadow: 0 0 20px #00000026;
+    box-shadow: 0 0 20px #d2ced7;
     border: 1px solid transparent;
     border-radius: 8px;
     margin-bottom: 24px;
@@ -50,21 +50,22 @@
     letter-spacing: 2px;
 }
 
-.multiple {
+.multiple_message_type {
     border-color: #78E6EA;
 }
 
-.single {
+.single_message_type {
     border-color: #C278EA;
 }
 
-.custom {
-    box-shadow: 0 0 20px #00000026;
+.custom_message_type {
+    position: relative;
+    box-shadow: 0 0 20px #d2ced7;
     padding: 8px;
     border-radius: 8px;
 }
 
-.actions {
+.buttons_block {
     display: flex;
     justify-content: space-between;
 }

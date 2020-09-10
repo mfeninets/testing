@@ -2,7 +2,7 @@ import { of } from "rxjs";
 import { delay, tap } from "rxjs/operators";
 import { Dispatch } from "redux";
 
-import { updateMessages as updateMessagesAction } from "./actions";
+import { updateMessagesAction } from "./store/actions";
 import { shuffledMessageList } from "./data-mocks/messages";
 
 export const getMessagesList = (dispatch: Dispatch) =>
